@@ -1,0 +1,77 @@
+section{
+    font-family: 'Open sans', sans-serif;
+    .container{
+        ._header{
+            h2{
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 25px;
+                letter-spacing: 2.30625px;
+                padding-bottom: 10px;
+                color: #48555B;
+            }
+            ._line{
+                border: 1px solid #00A4E5;
+                width: 50px;
+                margin: 0 auto 80px;
+            }
+        }
+        ._content{
+            display: flex;
+            gap: 50px;
+            ._text{
+                h3{
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: 0.1875px;
+                    span{
+                        color: #00A4E5;
+                        transition: text-decoration-color 300ms;
+                        text-decoration-color: rgba(255, 255, 255, 1);
+                    }
+                    &:hover span{
+                        text-decoration: underline 0.1em #00A4E5;
+
+                    }
+                    padding-bottom: 30px;
+                }
+                p{
+                    font-size: 13px;
+                    line-height: 23px;
+                    letter-spacing: 0.1875px;
+                }
+            }
+            ._image{
+                &>*{
+                    width: 140px;
+                    padding-left: 14px;
+                    padding-top: 15px;
+                    transition: 0.25s;
+                    cursor: pointer;
+                    &:hover{
+                      transform: scale(1.1);
+                    }
+                }
+                text-transform: uppercase;
+                display: flex;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                gap: 20px;
+                ._plan{
+                    background: url(/assets/image/plan.jpg);
+                }
+                ._manage{
+                    background: url(/assets/image/Bitmap.jpg);
+                }
+                ._build{
+                    background: url(/assets/image/build.jpg);
+                }
+            }
+        }
+    }
+    padding-bottom: 117px;
+}

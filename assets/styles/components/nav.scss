@@ -1,0 +1,39 @@
+nav{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    ._logo:hover{
+        cursor: pointer;
+    }
+    ul{
+        text-transform: uppercase;
+        display: flex;
+        gap: 40px;
+        a{
+            text-decoration: none;
+        }
+        a li{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 1.09091px;
+            color: #48555B;
+            span{
+                color: #00A4E5;
+                &:hover{
+                    color: #48555B;
+                }
+            }
+            &:hover{
+                color: #00A4E5;
+            }
+        }
+    }
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 57px;
+}

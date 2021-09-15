@@ -1,0 +1,57 @@
+.capadilities{
+    .container{
+        font-family: 'Open sans', sans-serif;
+        color: #48555B;
+        ._header{
+            display: flex;
+            justify-content: space-between;
+            ._header_line h2{
+                text-align:left;
+                width: 200px;
+                margin-right: 155px;
+            }
+            ._header_line ._line{
+                margin: 0 0 80px;
+            }
+            ._text{
+                font-size: 11px;
+                line-height: 19px;
+                letter-spacing: 0.2px;
+                gap: 31.6px;
+                display: flex;
+            }
+        }
+        ._services{
+            display: flex;
+            gap: 27px;
+            ._service{
+            border: 1px solid #E6E6E6;
+            }
+            ._contents{
+                padding-top: 38px;
+                padding-right: 22px;
+                padding-bottom: 39px;
+                padding-left: 23px;
+            }
+            color: #48555B;
+            font-family: 'Open Sans', sans-serif;
+            img{
+                margin-bottom: 25px;
+            }
+            h2{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.426667px;
+                margin-bottom: 13px;
+            }
+            p{
+                font-size: 13px;
+                line-height: 23px;
+                letter-spacing: 0.1875px;
+            }
+        }
+    }
+    padding-bottom: 80px;
+}

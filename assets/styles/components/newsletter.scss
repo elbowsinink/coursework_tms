@@ -1,0 +1,32 @@
+.newsletter{
+    background: #171819;
+    padding-bottom: 0;
+    .container{
+        padding-top: 30px;
+        form{
+            display: flex;
+            justify-content: space-around;
+        }
+        label{
+            span{
+              font-family: 'Open Sans', sans-serif;
+              font-weight: bold;
+              font-size: 22px;
+              line-height: 30px;
+              letter-spacing: 0.846154px;
+              color: #FFFFFF;
+              cursor: pointer;
+            }
+          }
+          ._input_button{
+              display:flex;
+              input{
+                height: 40px;
+                width: 250px;
+                padding-left: 16px;
+                border: 1px solid #979797;
+              }
+              margin-bottom: 30px;
+          }
+    }
+}
