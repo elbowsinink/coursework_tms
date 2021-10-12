@@ -26,13 +26,17 @@ footer{
         img{
             padding-bottom: 16.67px;
         }
-        h4{
+        span._1{
             text-transform: uppercase;
             font-weight: 600;
             font-size: 11px;
             line-height: 25px;
             letter-spacing: 0.846154px;
-            color: #FFFFFF
+            color: #FFFFFF;
+            width: 100%;
+            &:hover{
+                color:#00A4E5;
+            }
         }
         p{          
             font-size: 11px;
@@ -49,9 +53,9 @@ footer{
                 grid-auto-flow: column;
                 column-gap: 34px;
                 padding-right: 58px;
-                h4:hover{
-                    color:#00A4E5;
-                }
+                // h4:hover{
+                //     color:#00A4E5;
+                // }
             }
             a{
                 text-decoration: none;

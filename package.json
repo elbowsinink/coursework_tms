@@ -9,10 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.41.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.42.1"
   }
 }
